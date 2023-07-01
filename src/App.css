@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400&display=swap');
+
+
+body {
+    background-color: #F9BC20;
+    /*background-color: #f1b20f;*/
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+h1 {
+    font-size: 70px;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h2 {
+    font-size: 50px;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-width: 10px;
+    text-align: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h3 {
+    font-size: 30px;
+    font-family: "Roboto Mono", sans-serif;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+
+/* set font family for all text elements */
+body, h3, h4, h5, h6, p, label, button, input, textarea, select {
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 200;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* make font size responsive based on screen size */
+@media only screen and (max-width: 768px) {
+    body, h3, h4, h5, h6, p, label, button, input, textarea, select {
+        font-size: 14px;
+    }
 }
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    body, h3, h4, h5, h6, p, label, button, input, textarea, select {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+    body, h3, h4, h5, h6, p, label, button, input, textarea, select {
+        font-size: 18px;
+    }
+}
+
