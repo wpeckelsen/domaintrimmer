@@ -133,7 +133,7 @@ function Trimmer() {
                  onMouseEnter={() => setShowSecondary(true)}
                  onMouseLeave={() => setShowSecondary(false)}
             >
-                {showSecondary ? <h1>https://www.domaintrimmer.com/</h1> : <h1>Domain Trimmer</h1>}
+                {showSecondary ? <span><h1>https://www.domaintrimmer.com/</h1></span> : <span><h1>Domain Trimmer</h1></span>}
             </div>
 
 
@@ -145,7 +145,7 @@ function Trimmer() {
                     content={
                         <>
                             <p>
-                                Common numbering characters such as 1), 2:, 3. are removed too.
+                                Common numbering characters such as 1), 2:, 3. or - are removed too.
                             </p>
 
                             <p>
