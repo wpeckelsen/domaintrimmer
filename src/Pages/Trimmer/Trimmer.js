@@ -22,12 +22,6 @@ function Trimmer() {
         let outputValues = inputValues.map((value) => {
             let trimmedInput = value
                 .toLowerCase() // all characters are lowered
-                // .replace(/\s/g, "")
-                // .replace(/^.*[:;\-](?=[a-z0-9])/g, "")
-                // .replace(/(https?:\/\/)?(www\.)?/g, "")
-                // .replace(/\/.*$/g, "");
-
-                .toLowerCase() // all characters are lowered
                 .replace(/.*?\s/, "") // removes anything before the whitespace (including the whitespace)
                 .replace(/(https?:\/\/)?(www\.)?/g, "") // removes "https://", "http://", and "www."
                 .replace(/\/.*$/g, ""); // removes trailing slash and anything after it
