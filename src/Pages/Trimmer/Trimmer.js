@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from "react";
 import csvDownloader from "../../csvDownloader";
-import Box from "../../Components/Box/Box";
+import Box from "../../Components/CheckBox/Box";
 import PageCard from "../../Components/PageCard/PageCard";
 import Button from "../../Components/Button/Button";
 import Grid from "../../Components/Grid/Grid";

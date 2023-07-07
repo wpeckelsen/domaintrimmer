@@ -3,7 +3,6 @@
 
 body {
     background-color: #F9BC20;
-    /*background-color: #f1b20f;*/
 }
 
 
@@ -42,6 +41,9 @@ h3 {
 body, h3, h4, h5, h6, p, label, button, input, textarea, select {
     font-family: 'Roboto Mono', sans-serif;
     font-weight: 200;
+}
+
+a {
 
 }
 

@@ -1,6 +1,6 @@
 import './App.css';
 import Trimmer from "./Pages/Trimmer/Trimmer";
-import Navbar from "./Components/Navbar/Navbar";
+import Navigation from "./Components/Navigation/Navigation";
 import About from "./Pages/About/About";
 import { redirect } from "react-router-dom";
 import React from 'react';
@@ -11,11 +11,13 @@ import NavBar from "./Pages/Layout/NavBar";
 
 
 
+
 export default function App() {
+
     return (
         <BrowserRouter>
             <Routes>
-                <Route path="/" element={<NavBar />}>
+                <Route path="/" element={<Navigation />}>
                     <Route index element={<Trimmer/>} />
                     <Route path="about" element={<About />} />
                     <Route path="contact" element={<Contact />} />
