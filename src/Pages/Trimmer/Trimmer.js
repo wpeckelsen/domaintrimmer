@@ -151,7 +151,6 @@ function Trimmer() {
                                 className="purple2">light purple</span> as the next occurrence.
                             </p>
 
-
                             <label>
                                 <textarea className="input" value={inputValue} onChange={handleChange}/>
                             </label>
