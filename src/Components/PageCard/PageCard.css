@@ -21,7 +21,7 @@
 
 
 @media only screen and (max-width: 768px) {
-    .trimmer-card {
+    .page-card {
         max-width: 90%;
     }
 }

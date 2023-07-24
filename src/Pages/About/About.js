@@ -1,12 +1,6 @@
 import PageCard from "../../Components/PageCard/PageCard";
 
 function About(){
-
-    //         <div className= {className}>
-    //                 <h2>{title}</h2>
-    //                 <p>{subtitle}</p>
-    //                 <div className="content">{content}</div>
-    //             </div>
     return(
 
         <>

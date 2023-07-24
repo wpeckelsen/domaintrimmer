@@ -5,7 +5,7 @@ import About from "./Pages/About/About";
 import { redirect } from "react-router-dom";
 import React from 'react';
 import { Navigate } from 'react-router-dom';
-import {BrowserRouter as Router, Switch, Route, Link, BrowserRouter, Routes} from 'react-router-dom';
+import {BrowserRouter as Router, Route, BrowserRouter, Routes} from 'react-router-dom';
 import Contact from "./Pages/Contact/Contact";
 import NavBar from "./Pages/Layout/NavBar";
 

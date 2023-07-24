@@ -1,9 +1,12 @@
-.box{
-    display: inline-flex;
+/* Box.css */
+
+.box {
+    display: flex;
     align-items: center;
-    gap: 5px;
+    margin-bottom: 10px;
+
 }
 
-
-
-
+.check{
+    margin-right: 10px;
+}
